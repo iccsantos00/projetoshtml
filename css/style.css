@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #F4E9DD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+main.noticia {
+    display: flex;
+}
+
+main.noticia section.noticia {
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.noticia-img-top {
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.noticia-body h5 {
+    margin: 10px;
+    font-weight: 500;
+}
+
+.noticia-body p {
+    margin: 10px;
+}
+
+main.noticia button {
+    padding: 0.7rem 2rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    margin: 15px;
+    font-weight: 500;
+}
+
+main.cards {
+    display: flex;
+    padding: 50px;
+}
+
+main.cards section.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    max-width: 260px;
+    margin-left: 50px;
+    box-shadow: 20px 20px 50px -30px #A45832;
+}
+
+main.cards section.cards:first-child{
+    margin-left: 0;
+}
+
+main.cards section.cards .icon {
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+}
+
+main.cards section.cards img {
+    width: 100%;
+}
+
+main.cards section.cards button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    margin: 15px;
+    font-weight: 500;
+}
+
+iframe {
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px -30px #A45832;
+}
+
+main.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px -30px #A45832;
+    max-width: 500px;
+    padding: 3rem 5rem;
+
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 500;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@700&display=swap" rel="stylesheet">   
+    <title>SaúdeSim</title>
+  </head>
+  <body>
+  <header>
+      <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">SaúdeSim</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#noticias">Notícias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contatos.html">Contatos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Entrar
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="paciente.html">Paciente</a>
+            <a class="dropdown-item" href="cadastro.html">Cadastro</a>
+            <a class="dropdown-item" href="colaborador.html">Colaborador</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
+  <!-- Carrossel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/imagem1.png" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/imagem2.png" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/imagem3.png" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <!--Cards Notícias-->
+  <main class="noticia" id="noticias">
+  <section class="noticia" style="width: 25rem;">
+    <img class="noticia-img-top" src="img/oms.jpg" alt="Oms">
+    <div class="noticia-body">
+      <h5 class="noticia-title">OMS se prepara para disseminação de doenças virais associadas ao El Niño</h5>
+      <p class="noticia-text">A Organização Mundial da Saúde está se preparando para uma disseminação maior de doenças virais, como dengue, Zika e chikungunya, associadas ao fenômeno climático El Niño, disse o diretor-geral da agência, Tedros Adhanom Ghebreyesus.</p>
+      <button><a href="https://noticias.uol.com.br/ultimas-noticias/reuters/2023/06/21/oms-se-prepara-para-disseminacao-de-doencas-virais-associadas-ao-el-nino.htm">Visitar</a></button>
+    </div>
+  </section>
+  <section class="noticia" style="width: 25rem;">
+    <img class="noticia-img-top" src="img/parana.jpg" alt="Parana">
+    <div class="noticia-body">
+      <h5 class="noticia-title">Fiocruz confirma morte por influenza suína no Paraná</h5>
+      <p class="noticia-text">A Fiocruz confirmou hoje uma morte causada pelo vírus influenza A(H1N1)v, de origem suína, no estado do Paraná. Essa é a primeira infecção humana pelo vírus relatada em 2023 no Brasil.</p>
+      <button><a href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2023/06/21/fiocruz-investiga-morte-por-influenza-suina-no-parana.htm">Visitar</a></button>
+    </div>
+  </section>
+  <section class="noticia" style="width: 25rem;">
+    <img class="noticia-img-top" src="img/campinas.jpg" alt="Gripe">
+    <div class="noticia-body">
+      <h5 class="noticia-title">Febre maculosa: Jundiaí tem 7 casos suspeitos; 2 estiveram em Campinas</h5>
+      <p class="noticia-text">A Prefeitura de Jundiaí (55 km de São Paulo) informou que investiga sete possíveis casos de febre maculosa —duas dessas pessoas estiveram em eventos em Campinas, onde quatro mortes pela doença foram confirmadas.</p>
+      <button><a href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2023/06/16/febre-maculosa-jundiai-tem-7-casos-suspeitos-2-foram-a-festa-em-campinas.htm">Visitar</a></button>
+    </div>
+  </section>
+  </main>
+
+  <!--Cards-->
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Sistema de Consulta Online</h5>
+          <p class="card-text">Um sistema de última geração para contribuir para o bem estar dos nossos paciente, os quais podem ser atendidos no conforto de suas casas.</p>
+            <!-- Botão para acionar modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+            Consulta Online
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sistema de Consulta Online</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         Atenção, o nosso Sistema de Consultas Online está em manutenção, aguarde para mais informações, ou se preferir entre em contato conosco no botão abaixo.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Entrar em contato</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <!--cards-->
+  <main class="cards">
+    <section class="cards">
+      <div class="icon">
+        <img src="img/icone1.png" alt="contato">
+      </div>
+        <h3>Contatos</h3>
+        <span>Entre em contato para sanar suas dúvidas</span>
+        <button>
+          <a href="contatos.html">Saiba Mais
+        </a></button>
+    </section>
+    <section class="cards">
+      <div class="icon">
+        <img src="img/icone3.png" alt="trabalhe">
+      </div>
+        <h3>Trabalhe Conosco</h3>
+        <span>Veja as vagas disponíveis para trabalhar conosco</span>
+        <button>
+          <a href="#">Saiba Mais
+          </a></button>
+    </section>
+    <section class="cards">
+      <div class="icon">
+        <img src="img/icone2.png" alt="redes">
+      </div>
+        <h3>Redes Socias</h3>
+        <span>Conheça nossas Redes Sociais</span>
+        <button>
+          <a href="contatos.html#redessociais">Saiba Mais
+          </a></button>
+    </section>
+
+  </main>
+
+  <!--Iframe-->
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.832698279523!2d-48.031940248537715!3d-15.865388028718463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d97a15b0507%3A0x3c3e4472ee75d834!2sUniversidade%20Cat%C3%B3lica%20de%20Bras%C3%ADlia%20-%20C%C3%A2mpus%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1687364187037!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
